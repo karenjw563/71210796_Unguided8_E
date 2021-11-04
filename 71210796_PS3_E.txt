@@ -1,0 +1,17 @@
+Pseudocode untuk melakukan pencarian nilai fibonacci dengan bilangan sebagai berikut :
+1 1 2 3 5 8 13 dst…
+
+i, n, fibonacci(i): integer
+i=fibonacci
+n=banyaknya suku yang akan diinput
+
+input n
+i=1 atau i=1 then
+cetak "fibonacci(i)=i"
+else
+while i>1 dan i</n do
+fibonacci(i)=fibonacci(i-1)+fibonacci(i-2)
+cetak fibonacci(i)
+i=i+1
+end
+
